@@ -1,9 +1,11 @@
 use ("utt_jrr_store")
 
 db.products.updateOne(
-    {_id: ObjectId("67c76d0a70fc7acf3efeea72")}, 
+    {_id: 
+        ObjectId("67d4e413c7475d3dbe6ff89e")
+    }, 
     {
-        $set: {
+        $inc: {
             price: 97
         }
     }
